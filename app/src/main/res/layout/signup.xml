@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/ic_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.45"
+        app:layout_constraintDimensionRatio="1:1"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/FullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_full_name"
+        android:layout_margin="20dp"
+        app:startIconDrawable="@drawable/account"
+        app:errorEnabled="true"
+        app:suffixText="@string/input_full_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiFullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_email"
+        android:layout_margin="20dp"
+        app:startIconDrawable="@drawable/email"
+        app:errorEnabled="true"
+        app:suffixText="@string/input_suffix_Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FullName">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Paswword"
+        android:layout_margin="20dp"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/lock"
+        app:passwordToggleTint="@color/colorPrimary"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailAddress">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Paswword"
+        android:layout_margin="20dp"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/lock"
+        app:passwordToggleTint="@color/colorPrimary"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tiConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ConfirmPassword"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/Primary"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/btnRegisterNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_terms_and_privacy"
+        android:textColor="@color/Primary"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubmit"
+        android:layout_marginTop="45dp"
+        android:gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
