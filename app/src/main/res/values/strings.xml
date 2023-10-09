@@ -42,8 +42,6 @@
     <string name="action_1">Show More</string>
 
 
-
-
     <!--  Menu | Fragments | Navigation -->
     <string name="item_home">Home</string>
     <string name="item_news">News</string>
@@ -66,12 +64,19 @@
     <string name="title3">Red Dead Redemption 2</string>
     <string name="title4">God of War Ragnarok</string>
     <string name="title5">Diablo 4</string>
+    <string name="title6">EA SPORTS FC™ 24</string>
+    <string name="title7">League Of Legend</string>
+    <string name="title8">Counter Strike 2</string>
 
     <string name="description1">Here\'s the latest news from the gaming and e-sports world.</string>
     <string name="description2">Finally, the successor to Breath of the Wild arrives on Nintendo Switch. Waited for several years.</string>
     <string name="description3">Bonus rewards for some of the west’s toughest jobs</string>
     <string name="description4">Confusing God of War Ragnarok Glitch Brings Brok of the Huldra brothers Back to Life</string>
     <string name="description5">Diablo 4 continues to walk back changes from its fiendishly unpopular 1.1 patch, boosting XP gain on World Tiers 3 and 4</string>
+    <string name="description6">  A Sports FC 24 est un jeu vidéo de football développé par Electronic Arts et édité par EA Sports, sorti le 29 septembre 2023 sur Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series et Nintendo Switch
+    Date de sortie initiale : 29 septembre 2023</string>
+    <string name="description7">Les Worlds 2023 ont déjà battu un record qui tenait depuis la saison 1</string>
+    <string name="description8">Counter-Strike 2 est disponible ! Venez-y jeter un œil. Counter-Strike 2 marque le plus grand bond technique de toute  l'histoire de la franchise et garantit aujourd'hui de nouvelles fonctionnalités et mises à jour pour les années à venir. </string>
 
     <string name="Content_description_app_logo">App Logo</string>
     <string name="Content_description_facebook_button">Facebook Login</string>
