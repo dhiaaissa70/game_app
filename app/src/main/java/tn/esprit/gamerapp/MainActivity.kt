@@ -51,7 +51,9 @@ class MainActivity : AppCompatActivity() {
                 val snackbar = Snackbar.make(it, "You have some errors in your inputs!", Snackbar.LENGTH_SHORT)
                 snackbar.show()
             } else {
-                passwordTextInput.error = null
+                val intent = Intent(this,HomeScreen::class.java)
+                startActivity(intent)
+
             }
         }
         btnFB.setOnClickListener(){
