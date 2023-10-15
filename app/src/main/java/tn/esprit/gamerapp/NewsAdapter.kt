@@ -1,12 +1,13 @@
 package tn.esprit.gamerapp
-
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-class NewsAdapter(private val news: ArrayList<NewsData>) : RecyclerView.Adapter<NewsViewHolder>() {
+class NewsAdapter : RecyclerView.Adapter<NewsViewHolder>() {
+    var news = mutableListOf<NewsData>()
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NewsViewHolder {
-        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.listnews, parent, false)
+        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_news, parent, false)
         return NewsViewHolder(itemView)
     }
 

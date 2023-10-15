@@ -64,12 +64,18 @@
     <string name="title3">Red Dead Redemption 2</string>
     <string name="title4">God of War Ragnarok</string>
     <string name="title5">Diablo 4</string>
+    <string name="title6">Fc24</string>
+    <string name="title7">Counter Strike</string>
+    <string name="title8">League Of Legends </string>
 
     <string name="description1">Here\'s the latest news from the gaming and e-sports world.</string>
     <string name="description2">Finally, the successor to Breath of the Wild arrives on Nintendo Switch. Waited for several years.</string>
     <string name="description3">Bonus rewards for some of the west’s toughest jobs</string>
     <string name="description4">Confusing God of War Ragnarok Glitch Brings Brok of the Huldra brothers Back to Life</string>
     <string name="description5">Diablo 4 continues to walk back changes from its fiendishly unpopular 1.1 patch, boosting XP gain on World Tiers 3 and 4</string>
+    <string name="description6">EA FC 24 Trailblazers Team 2 released: On October 20, 2023, EA FC 24 Trailblazers Team 2 was released with another wave of special Ultimate Team cards replacing the ones from Team 1 in the packs</string>
+    <string name="description7">Counter-Strike 2 is now available and free to play. The game was released on September 27, 2023, and is available on PC via Steam.</string>
+    <string name="description8">League of Legends Worlds 2023 is underway! The biggest League of Legends tournament of the year is currently happening, with teams from all over the world competing for the championship title</string>
 
     <string name="Content_description_app_logo">App Logo</string>
     <string name="Content_description_facebook_button">Facebook Login</string>

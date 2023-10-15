@@ -6,8 +6,8 @@
     tools:context=".NewsFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycle_news"
+        android:id="@+id/recycleNews"
         android:layout_width="match_parent"
-        tools:listitem="@layout/listnews"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list_news" />
 </FrameLayout>
