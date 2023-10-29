@@ -1,13 +1,15 @@
 package tn.esprit.gamerapp
 
-import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import tn.esprit.gamerapp.databinding.ListstoreBinding
 
-class StoreViewHolder(itemView:View):RecyclerView.ViewHolder(itemView) {
-    val GameTitle:TextView = itemView.findViewById(R.id.storetitle)
-    val GameCategory:TextView = itemView.findViewById(R.id.category)
-    val GamePrice:TextView = itemView.findViewById(R.id.price)
-    val Gameimage :ImageView = itemView.findViewById(R.id.gamestoreimage)
+class StoreViewHolder(val binding: ListstoreBinding):RecyclerView.ViewHolder(binding.root) {
+    val GameTitle:TextView = binding.storetitle
+    val GameCategory:TextView = binding.category
+    val GamePrice:TextView = binding.price
+    val Gameimage :ImageView = binding.gamestoreimage
+
+
 }

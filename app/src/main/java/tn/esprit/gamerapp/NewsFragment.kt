@@ -45,9 +45,7 @@ class NewsFragment : Fragment() {
             NewsData(getString(R.string.title7), getString(R.string.description7), R.drawable.ic_counter_strike),
             NewsData(getString(R.string.title2), getString(R.string.description2), R.drawable.ic_zelda),
             NewsData(getString(R.string.title3), getString(R.string.description3), R.drawable.ic_red_dead),
-            NewsData(getString(R.string.title8), getString(R.string.description8), R.drawable.ic_league),
-
-
+            NewsData(getString(R.string.title8), getString(R.string.description8), R.drawable.ic_league)
         )
     }
 }

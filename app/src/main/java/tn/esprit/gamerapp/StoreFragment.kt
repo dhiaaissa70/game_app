@@ -45,36 +45,42 @@ class StoreFragment : Fragment() {
     private fun dataInitialize() {
         storeList = mutableListOf(
             StoreData(
+                1,
                 getString(R.string.title6),
                 resources.getStringArray(R.array.category)[0],
                 180,
                 R.drawable.ic_fifa
             ),
             StoreData(
+                2,
                 getString(R.string.title4),
                 resources.getStringArray(R.array.category)[1],
                 190,
                 R.drawable.ic_gow
             ),
             StoreData(
+                3,
                 getString(R.string.title7),
                 resources.getStringArray(R.array.category)[2],
                 120,
                 R.drawable.ic_counter_strike
             ),
             StoreData(
+                4,
                 getString(R.string.title2),
                 resources.getStringArray(R.array.category)[3],
                 200,
                 R.drawable.ic_zelda
             ),
             StoreData(
+                5,
                 getString(R.string.title3),
                 resources.getStringArray(R.array.category)[0],
                 250,
                 R.drawable.ic_red_dead
             ),
             StoreData(
+                6,
                 getString(R.string.title8),
                 resources.getStringArray(R.array.category)[2],
                 170,
